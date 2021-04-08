@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* Typography */
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 6rem 8rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(168, 167, 167);
+  padding-bottom: 0.3rem;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 0.1rem;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.1rem;
+}
+
+ul {
+  padding-left: 0.625rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a,
+a:visited {
+  color: blue;
+}
+
+/* Resume */
+
+.light {
+  color: gray;
+}
+
+.blue {
+  color: blue;
+}
+.mt-sm {
+  margin-top: 0.5rem;
+}
+
+.mt-md {
+  margin-top: 1rem;
+}
+
+.mb-sm {
+  margin-bottom: 0.5rem;
+}
+
+.mb-md {
+  margin-bottom: 1rem;
+}
+.resume {
+  width: 800px;
+}
